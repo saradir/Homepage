@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin:0;
 
 }
 
@@ -11,6 +12,7 @@ section{
     justify-content: center;
     padding: 20px;
     padding-bottom: 2rem;
+    margin-bottom:3rem;
 }
 
 .img-container{
@@ -132,4 +134,33 @@ i{
 
 .project-card i{
     font-size:2rem;
+}
+
+section.contacts{
+    background-color: rgba(7,171,248,1);
+    color: rgb(255, 255, 255);
+    padding:0;
+    margin-bottom: 0;
+}
+.contacts-container{
+    padding:1rem;
+    padding-bottom:5rem;
+}
+
+.contacts p{
+    color:white;
+}
+
+.contacts .intro{
+    font-size:1.5rem;
+}
+
+.contacts .img-container{
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+
+.contacts .socials-bar{
+    color:black;
 }
